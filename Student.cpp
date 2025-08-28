@@ -6,6 +6,7 @@ Student::Student()
 }
 
 Student::~Student() {
+	cout << "Student object destroyed!\n";
 }
 
 void Student::setName(string n) {
